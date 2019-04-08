@@ -225,6 +225,7 @@ const findEmails = (action, category) => {
       )[0]
     )
       return true;
+    else return false;
   });
   return foundPersons.map(person => person.email);
 };
